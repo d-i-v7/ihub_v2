@@ -1,0 +1,286 @@
+<div class="testimonial-slider">
+  <h1 class="slider-topic">Customer Testimonials</h1>
+  <p class="slider-paragraph">Read what our customers have to say about our services.</p>
+  <div class="slider-content" id="testimonial-content">
+      <div class="testimonial-item active">
+          <div class="user-img">
+              <img src="path/to/user1.jpg" alt="User 1">
+          </div>
+          <h2>John Doe</h2>
+          <p>"Great service! I'm really satisfied with the results."</p>
+      </div>
+        <div class="testimonial-item active">
+          <div class="user-img">
+              <img src="path/to/user1.jpg" alt="User 1">
+          </div>
+          <h2>John Doe</h2>
+          <p>"Great service! I'm really satisfied with the results."</p>
+      </div>
+      <!-- Add more testimonial items as needed -->
+  </div>
+  <div id="testimonial-dots" class="dots"></div>
+  <div id="prev-btn" class="arrow prev">&#9665;</div>
+  <div id="next-btn" class="arrow next">&#9655;</div>
+</div>
+
+
+
+<style>
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+}
+
+.testimonial-slider {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.slider-content {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.testimonial-item {
+    flex: 0 0 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.testimonial-item.active {
+    opacity: 1;
+}
+
+.user-img img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555;
+    font-size: 16px;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: #555;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.arrow:hover {
+    color: #ea830e;
+}
+
+/* Add these styles for the active dot */
+.dot.active {
+    background-color: #ea830e;
+}
+
+/* Add these styles for autoplay */
+.testimonial-slider:hover .arrow {
+    display: block;
+}
+
+.arrow {
+    /* existing styles */
+    display: none;
+}
+
+/* Add these styles for improved UI/UX */
+.slider-topic {
+    font-size: 24px;
+    margin-bottom: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.slider-topic:after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 50%;
+    background-color: #ea830e;
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+}
+
+.slider-paragraph {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.testimonial-slider {
+    text-align: center;
+    position: relative;
+    padding: 20px;
+}
+
+.testimonial-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.user-img img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* Existing styles for arrows and dots */
+.arrow {
+    /* existing styles */
+    display: none;
+}
+
+.arrow:hover {
+    color: #ea830e;
+}
+
+.dot:hover, .dot.active {
+    background-color: #ea830e;
+    box-shadow: 0 0 10px rgba(234, 131, 14, 0.8);
+}
+
+</style>
+
+
+
+<script>
+ // Testimonial Slider
+var sliderContent = document.getElementById("testimonial-content");
+var sliderItems = Array.from(document.querySelectorAll(".testimonial-item"));
+var sliderDots = document.getElementById("testimonial-dots");
+var prevButton = document.getElementById("prev-btn");
+var nextButton = document.getElementById("next-btn");
+var currentSlideIndex = 0;
+var touchStartX, touchEndX;
+
+function updateTestimonialSlider() {
+    sliderContent.style.transform = `translateX(${-currentSlideIndex * 100}%)`;
+}
+
+function setActiveDot() {
+    var dots = Array.from(sliderDots.children);
+    dots.forEach(function (dot, index) {
+        dot.classList.toggle("active", index === currentSlideIndex);
+    });
+}
+
+function moveToPrevSlide() {
+    currentSlideIndex = (currentSlideIndex - 1 + sliderItems.length) % sliderItems.length;
+    updateTestimonialSlider();
+    setActiveDot();
+}
+
+function moveToNextSlide() {
+    currentSlideIndex = (currentSlideIndex + 1) % sliderItems.length;
+    updateTestimonialSlider();
+    setActiveDot();
+}
+
+function handleTouchStart(e) {
+    touchStartX = e.touches[0].clientX;
+}
+
+function handleTouchEnd(e) {
+    touchEndX = e.changedTouches[0].clientX;
+    if (touchStartX - touchEndX > 50) {
+        moveToNextSlide();
+    } else if (touchEndX - touchStartX > 50) {
+        moveToPrevSlide();
+    }
+}
+
+// Event Listeners
+prevButton.addEventListener("click", moveToPrevSlide);
+nextButton.addEventListener("click", moveToNextSlide);
+
+sliderItems.forEach(function (_, index) {
+    var dot = document.createElement("div");
+    dot.className = "dot";
+    dot.addEventListener("click", function () {
+        currentSlideIndex = index;
+        updateTestimonialSlider();
+        setActiveDot();
+    });
+    sliderDots.appendChild(dot);
+});
+
+sliderContent.addEventListener("touchstart", handleTouchStart);
+sliderContent.addEventListener("touchend", handleTouchEnd);
+
+// Set up initial state
+setActiveDot();
+updateTestimonialSlider();
+
+// Autoplay
+let testimonialAutoplayInterval;
+
+function startAutoplay() {
+    testimonialAutoplayInterval = setInterval(() => {
+        moveToNextSlide();
+    }, 3000); // Change slide every 3 seconds
+}
+
+function stopAutoplay() {
+    clearInterval(testimonialAutoplayInterval);
+}
+
+sliderContent.addEventListener("mouseover", stopAutoplay);
+sliderContent.addEventListener("mouseout", startAutoplay);
+
+startAutoplay();
+
+
+</script>

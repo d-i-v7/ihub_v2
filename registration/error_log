@@ -1,0 +1,12 @@
+[03-Oct-2024 04:56:07 UTC] PHP Fatal error:  Uncaught Error: Class "SMTP" not found in /home/himilo/public_html/ihub/registration/api.php:24
+Stack trace:
+#0 /home/himilo/public_html/ihub/registration/api.php(193): SEND_EMAIL()
+#1 /home/himilo/public_html/ihub/registration/api.php(154): MentorReg()
+#2 {main}
+  thrown in /home/himilo/public_html/ihub/registration/api.php on line 24
+[03-Oct-2024 05:02:34 UTC] PHP Fatal error:  Uncaught Error: Class "SMTP" not found in /home/himilo/public_html/ihub/registration/api.php:24
+Stack trace:
+#0 /home/himilo/public_html/ihub/registration/api.php(193): SEND_EMAIL()
+#1 /home/himilo/public_html/ihub/registration/api.php(154): MentorReg()
+#2 {main}
+  thrown in /home/himilo/public_html/ihub/registration/api.php on line 24

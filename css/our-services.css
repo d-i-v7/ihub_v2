@@ -1,0 +1,224 @@
+/* GOOGLE FONTS LINK . THIS LINK WE HELP TO GET BEAUTYFULL CSS FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', 'Poppins', sans-serif;
+}
+
+/* ROOT OF COLORS */
+:root {
+    --p-color: #13488e;
+    --s-color: #ec8723;
+    --d-bg-color: #15141d;
+    --l-bg-color: #f8f1ea;
+
+}
+
+html.body {
+    overflow-x: hidden !important;
+
+}
+
+body {
+
+    background: var(--d-bg-color) !important;
+}
+
+body.l-mode {
+
+    background: var(--l-bg-color) !important;
+}
+
+
+.header {
+
+
+    background-color: transparent !;
+    position: absolute;
+    z-index: 9999;
+}
+
+.header.scroll {
+
+    background-color: #241a27;
+}
+
+body.l-mode .header {
+
+    background-color: transparent;
+}
+
+body.l-mode .header.scroll {
+
+    background-color: var(--l-bg-color);
+    ;
+}
+
+
+
+
+
+/* ================ALL SERVICES CSS START HERE=============== */
+.all-our {
+
+    width: 100%;
+    /* height: 100vh; */
+    background-color: var(--d-bg-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    position: relative;
+    top: 0;
+}
+
+body.l-mode .all-our {
+
+    background-color: var(--l-bg-color) !important;
+}
+
+.all-our .header-serv {
+
+    width: 100%;
+    padding: 150px 0px 60px 0px;
+    top: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--p-color);
+}
+
+body.l-mode .all-our .header-serv {
+
+
+    background-color: var(--s-color);
+}
+
+.all-our .header-serv h1 {
+    color: #fff;
+    font-size: 45px;
+
+}
+
+.all-our .header-serv p {
+    color: var(--l-bg-color);
+
+
+}
+
+.all-our .all-ser {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+
+
+.all-our .all-ser .one-serv {
+    background-color: #241a27;
+
+    display: flex;
+    margin: 40px 10px;
+    width: 48vh;
+    flex-direction: column;
+    padding:100px 20px 50px 20px;
+    border-radius: 10px;
+    box-shadow: 4px 5px 3px -1px rgba(0, 0, 0, 0.18);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+}
+
+body.l-mode .all-our .all-ser .one-serv {
+
+
+    background-color: #fff;
+}
+
+.all-our .all-ser .one-serv::before{
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+    background-color: var(--p-color);
+    width: 500px;
+    height: 10px;
+    z-index: -1;
+transition: 0.7s;
+cursor: pointer;
+}
+
+body.l-mode .all-our .all-ser .one-serv::before{
+    background-color: var(--s-color);
+
+}
+.team-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 120px;
+    padding-bottom: 220px !important;
+}
+
+
+.all-our .all-ser .one-serv:hover::before{
+
+    height: 1000px !important;
+
+}
+.all-our .all-ser .one-serv .icon{
+    padding: 13px 10px ;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 35%;
+    margin-bottom: 30px;
+}
+
+body.l-mode .all-our .all-ser .one-serv .serv-name{
+    color: var(--p-color);
+}
+.all-our .all-ser .one-serv .serv-name{
+color: var(--s-color);
+font-size: 25px;
+font-weight: 500;
+}
+.all-our .all-ser .one-serv p{
+    color: #fff;
+    transition: 0.5s;
+    width: 90%;
+    word-wrap: break-word;
+    white-space: wrap;
+    word-break: break-all;
+}
+body.l-mode .all-our .all-ser .one-serv p{
+    color: var(--d-bg-color);
+}
+body.l-mode  .one-serv:hover.one-serv p{
+    color:#fff !important;
+} 
+.all-our .all-ser .one-serv .icon img{
+   width: 70px;
+}
+/* ================ALL SERVICES CSS END HERE=============== */
+
+@media screen and (max-width:500px) {
+    .all-our .all-ser {
+
+        padding: 10px;
+
+    }
+}

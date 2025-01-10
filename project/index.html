@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Button</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #6dd5ed, #2193b0);
+        }
+
+        .download-btn {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+            background: #ff4d00 /* Green background */
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+            transition: background 0.3s, transform 0.3s;
+        }
+
+        .download-btn:hover {
+            background: #45a049; /* Darker green */
+            transform: translateY(-2px);
+        }
+
+        .download-btn:active {
+            transform: translateY(0px);
+        }
+    </style>
+</head>
+<body>
+    <a href="https://ihub.himilouniversity.edu.so/design.rar" download class="download-btn">Download The Design</a>
+</body>
+</html>

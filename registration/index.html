@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foomka Diiwaangelinta</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <div class="logo">
+                <img src="logo.png" width="120px" alt="Logo">
+            </div>
+            <h2>Iska Diiwangali Halkan</h2>
+            <form id="registrationForm">
+                <div class="input-group">
+                    <label for="fullName">Magaca Buuxa</label>
+                    <input type="text" id="fullName" name="fullName" placeholder="Geli magacaaga buuxa">
+                    <span class="error-message" id="fullNameError"></span>
+                </div>
+                <div class="input-group">
+                    <label for="phone">Lambarka Taleefanka</label>
+                    <input type="text" id="phone" name="phone" placeholder="Geli lambarkaaga taleefanka">
+                    <span class="error-message" id="phoneError"></span>
+                </div>
+                <div class="input-group">
+                    <label for="email">Email-ka</label>
+                    <input type="email" id="email" name="email" placeholder="Geli emailkaaga">
+                    <span class="error-message" id="emailError"></span>
+                </div>
+                <div class="input-group">
+                    <label for="address">Dagmada</label>
+                    <input type="text" id="address" name="address" placeholder="Geli cinwaankaaga">
+                    <span class="error-message" id="addressError"></span>
+                </div>
+                <button type="submit" class="submit-btn">Gudbi</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="app.js"></script>
+</body>
+</html>

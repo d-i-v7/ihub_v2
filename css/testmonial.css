@@ -1,0 +1,268 @@
+
+/* ==================START TESTMONIAL CSS==================== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+
+/* ROOT OF COLORS */
+:root {
+    --p-color: #13488e;
+    --s-color: #ec8723;
+    --d-bg-color: #15141d;
+--l-bg-color: #f8f1ea;
+
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.my_n_container {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 30px;
+	background-image: url(./images/pattern-curve.svg);
+    background-color: var(--d-bg-color);
+	margin-top: -5px !important;
+
+}
+body.l-mode .my_n_container{
+    background-color: var(--l-bg-color) !important;
+}
+
+.testi-header{
+
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    margin-bottom: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.testi-header h1{
+    color: var(--s-color);
+    font-size: 35px;
+}
+.testi-header h1::before{
+content: "";
+    position: absolute;
+    background-color: var(--p-color);
+    width: 160px;
+    left: 45%;
+    height: 5px;
+    border-radius:20px ;
+margin-top: 50px;
+    
+}
+.testi-header h1::after{
+content: "";
+    position: absolute;
+    background-color: var(--s-color);
+    width: 30px;
+    left: 49.5%;
+    height: 30px;
+    border-radius:20px ;
+margin-top: 40px;
+    
+}
+
+.testi-header p{
+
+    margin-top: 40px;
+    color: var(--l-bg-color);
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+body.l-mode .testi-header p{
+    color: var(--d-bg-color);
+}
+.my_n_slider {
+	display: block;
+	height: 100%;
+	width: 100%;
+	max-width: 850px;
+	margin: 0 auto;
+	position: relative;
+}
+.my_n_slide {
+	width: 100%;
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	
+}
+.my_n_slide-text {
+	padding-top: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-image: url(./images/pattern-quotes.svg);
+	background-repeat: no-repeat;
+	background-size: 80px;
+
+	background-position: top center;
+}
+.testimonial-text {
+	font-weight: 300;
+    font-family: 'Inter', sans-serif;
+	font-size: 25px !important;
+    margin-right: 30px !important;
+	/* line-height: 1rem; */
+	word-wrap: break-word ;
+	line-break: break-word;
+	word-break: break-all;
+
+	color: var(--l-bg-color);
+}
+body.l-mode .testimonial-text{
+    color: hsl(240, 38%, 20%); 
+}
+.author-text {
+	margin-top: 20px;
+	color: var(--s-color);
+	font-size: 20px;
+	font-weight: 700;
+}
+body.l-mode .author-text{
+    color: hsl(240, 38%, 20%); 
+}
+.author-text span {
+	color: hsl(240, 18%, 77%);
+	font-weight: 500;
+	display: block;
+}
+
+/* .my_n_slide-img{
+
+    width:  80rem !important;
+    overflow: hidden;
+    height: 300px;
+    position: relative;
+    box-shadow: 2px 3px 3px -1px rgba(0, 0, 0, 0.58);
+    background-color: red;
+    border-radius: 10px;
+} */
+.my_n_slide-img {
+	width: 100%;
+	margin: 0 auto;
+	height: 100%;
+	padding: 40px;
+	background-image: url(./images/pattern-bg.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+/* .my_n_slide-img img{
+    width: 20rem;
+    position: absolute;
+    height: 300px;
+} */
+.my_n_slide-img img {
+	height: 100%;
+	width: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px -1px rgba(0, 0, 0, 0.58);
+}
+
+.prev,
+.next {
+position: absolute;
+top: 50%;
+padding: 10px 15px;
+background-color:var(--s-color);
+border-radius: 50%;
+cursor: pointer;
+color: #fff;
+}
+
+
+.prev {
+left: -120px;
+}
+
+.next {
+	right: -120px;
+	
+}
+
+@media only screen and (max-width: 1168px){
+	.my_n_slide .prev{
+		display: none !important;
+	}
+	
+	.my_n_slide .next
+	{
+		display: none !important;
+	}
+
+.next{
+	display: none !important;
+}
+}
+
+@media only screen and (min-width: 768px) {
+	.my_n_slide {
+		flex-direction: row;
+		text-align: left;
+	}
+	.my_n_slide-text {
+		background-position: 10% top;
+		background-size: 100px;
+		align-items: flex-start;
+	}
+	
+	.testi-header h1{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+
+}
+@media only screen and (max-width: 700px) {
+    .testi-header h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .testi-header p{
+        font-size: 14px;
+        text-align: center;
+        margin-top: 5px;
+    }
+    .my_n_slide-img{
+        margin-left: 0px;
+    }
+    .more-s-btn{
+        font-size: 12px;
+    }
+	.testi-header h1::before,.testi-header h1::after{
+
+        display: none;
+    }
+
+ 
+
+
+}
+@media screen and (max-width:360px) and (max-height:667px) {
+.my_n_container{
+
+    height: 195vh !important;
+	padding-bottom: 2000px !important;
+}
+.my_n_slide-img{
+
+    margin-left: -40px ;
+}
+
+
+}
+
+/* ==================END TESTMONIAL CSS==================== */

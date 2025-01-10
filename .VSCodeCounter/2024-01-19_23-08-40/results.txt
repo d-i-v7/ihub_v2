@@ -1,0 +1,726 @@
+Date : 2024-01-19 23:08:40
+Directory : d:\php course\xammp\htdocs\ihub
+Total : 543 files,  78720 codes, 2694 comments, 16566 blanks, all 97980 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| CSS        |         96 |     33,449 |        349 |     12,720 |     46,518 |
+| XML        |        208 |     27,663 |         39 |        192 |     27,894 |
+| JavaScript |        171 |     10,421 |      1,875 |      1,893 |     14,189 |
+| PHP        |         63 |      6,679 |        429 |      1,667 |      8,775 |
+| HTML       |          5 |        508 |          2 |         94 |        604 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                         | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                            |        543 |     78,720 |      2,694 |     16,566 |     97,980 |
+| . (Files)                                                                                                    |         10 |      1,696 |         21 |        244 |      1,961 |
+| admin                                                                                                        |        211 |     27,692 |      1,136 |      5,925 |     34,753 |
+| admin (Files)                                                                                                |         55 |      5,347 |        409 |      1,487 |      7,243 |
+| admin\assets                                                                                                 |        154 |     22,282 |        705 |      4,427 |     27,414 |
+| admin\assets\css                                                                                             |          5 |         44 |         13 |         11 |         68 |
+| admin\assets\img                                                                                             |         67 |        270 |          1 |         61 |        332 |
+| admin\assets\img\icons                                                                                       |         67 |        270 |          1 |         61 |        332 |
+| admin\assets\js                                                                                              |         10 |        730 |         72 |         15 |        817 |
+| admin\assets\plugins                                                                                         |         72 |     21,238 |        619 |      4,340 |     26,197 |
+| admin\assets\plugins\alertify                                                                                |          3 |          4 |          6 |          0 |         10 |
+| admin\assets\plugins\apexchart                                                                               |          2 |         24 |         11 |          1 |         36 |
+| admin\assets\plugins\chartjs                                                                                 |          2 |          3 |         11 |          1 |         15 |
+| admin\assets\plugins\clipboard                                                                               |          1 |          1 |          6 |          0 |          7 |
+| admin\assets\plugins\countup                                                                                 |          3 |         18 |         21 |          0 |         39 |
+| admin\assets\plugins\dragula                                                                                 |          3 |          3 |          0 |          0 |          3 |
+| admin\assets\plugins\dragula\css                                                                             |          1 |          1 |          0 |          0 |          1 |
+| admin\assets\plugins\dragula\js                                                                              |          2 |          2 |          0 |          0 |          2 |
+| admin\assets\plugins\fileupload                                                                              |          1 |          1 |          0 |          1 |          2 |
+| admin\assets\plugins\flot                                                                                    |          4 |      2,430 |        446 |        582 |      3,458 |
+| admin\assets\plugins\fontawesome                                                                             |          5 |      8,956 |         20 |          3 |      8,979 |
+| admin\assets\plugins\fontawesome\css                                                                         |          2 |          2 |          8 |          0 |         10 |
+| admin\assets\plugins\fontawesome\webfonts                                                                    |          3 |      8,954 |         12 |          3 |      8,969 |
+| admin\assets\plugins\fullcalendar                                                                            |          3 |         13 |          9 |          0 |         22 |
+| admin\assets\plugins\icons                                                                                   |          7 |          7 |         21 |          0 |         28 |
+| admin\assets\plugins\icons\feather                                                                           |          1 |          1 |          0 |          0 |          1 |
+| admin\assets\plugins\icons\flags                                                                             |          1 |          1 |          0 |          0 |          1 |
+| admin\assets\plugins\icons\ionic                                                                             |          1 |          1 |          3 |          0 |          4 |
+| admin\assets\plugins\icons\pe7                                                                               |          1 |          1 |          0 |          0 |          1 |
+| admin\assets\plugins\icons\themify                                                                           |          1 |          1 |          0 |          0 |          1 |
+| admin\assets\plugins\icons\typicons                                                                          |          1 |          1 |          0 |          0 |          1 |
+| admin\assets\plugins\icons\weather                                                                           |          1 |          1 |         18 |          0 |         19 |
+| admin\assets\plugins\ion-rangeslider                                                                         |          3 |          3 |          1 |          0 |          4 |
+| admin\assets\plugins\ion-rangeslider\css                                                                     |          1 |          1 |          0 |          0 |          1 |
+| admin\assets\plugins\ion-rangeslider\js                                                                      |          2 |          2 |          1 |          0 |          3 |
+| admin\assets\plugins\lightbox                                                                                |          3 |          3 |          0 |          0 |          3 |
+| admin\assets\plugins\material                                                                                |          1 |      9,614 |          7 |      3,745 |     13,366 |
+| admin\assets\plugins\moment                                                                                  |          1 |          1 |          1 |          0 |          2 |
+| admin\assets\plugins\morris                                                                                  |          3 |          9 |         13 |          0 |         22 |
+| admin\assets\plugins\owlcarousel                                                                             |          3 |          4 |         15 |          0 |         19 |
+| admin\assets\plugins\peity                                                                                   |          2 |         22 |          6 |          1 |         29 |
+| admin\assets\plugins\raty                                                                                    |          2 |         74 |          9 |          0 |         83 |
+| admin\assets\plugins\scrollbar                                                                               |          3 |          3 |          0 |          0 |          3 |
+| admin\assets\plugins\select2                                                                                 |          3 |          5 |          1 |          1 |          7 |
+| admin\assets\plugins\select2\css                                                                             |          1 |          1 |          0 |          1 |          2 |
+| admin\assets\plugins\select2\js                                                                              |          2 |          4 |          1 |          0 |          5 |
+| admin\assets\plugins\simpleline                                                                              |          1 |          1 |          0 |          0 |          1 |
+| admin\assets\plugins\stickynote                                                                              |          2 |         15 |          0 |          0 |         15 |
+| admin\assets\plugins\summernote                                                                              |          2 |          2 |          2 |          0 |          4 |
+| admin\assets\plugins\sweetalert                                                                              |          2 |          3 |          1 |          2 |          6 |
+| admin\assets\plugins\toastr                                                                                  |          3 |          3 |          1 |          2 |          6 |
+| admin\assets\plugins\twitter-bootstrap-wizard                                                                |          4 |         16 |         11 |          1 |         28 |
+| admin\js                                                                                                     |          2 |         63 |         22 |         11 |         96 |
+| assets                                                                                                       |        152 |     22,217 |        680 |      4,408 |     27,305 |
+| assets\css                                                                                                   |          5 |          7 |         12 |          3 |         22 |
+| assets\img                                                                                                   |         65 |        269 |          2 |         61 |        332 |
+| assets\img\icons                                                                                             |         65 |        269 |          2 |         61 |        332 |
+| assets\js                                                                                                    |         10 |        703 |         47 |          4 |        754 |
+| assets\plugins                                                                                               |         72 |     21,238 |        619 |      4,340 |     26,197 |
+| assets\plugins\alertify                                                                                      |          3 |          4 |          6 |          0 |         10 |
+| assets\plugins\apexchart                                                                                     |          2 |         24 |         11 |          1 |         36 |
+| assets\plugins\chartjs                                                                                       |          2 |          3 |         11 |          1 |         15 |
+| assets\plugins\clipboard                                                                                     |          1 |          1 |          6 |          0 |          7 |
+| assets\plugins\countup                                                                                       |          3 |         18 |         21 |          0 |         39 |
+| assets\plugins\dragula                                                                                       |          3 |          3 |          0 |          0 |          3 |
+| assets\plugins\dragula\css                                                                                   |          1 |          1 |          0 |          0 |          1 |
+| assets\plugins\dragula\js                                                                                    |          2 |          2 |          0 |          0 |          2 |
+| assets\plugins\fileupload                                                                                    |          1 |          1 |          0 |          1 |          2 |
+| assets\plugins\flot                                                                                          |          4 |      2,430 |        446 |        582 |      3,458 |
+| assets\plugins\fontawesome                                                                                   |          5 |      8,956 |         20 |          3 |      8,979 |
+| assets\plugins\fontawesome\css                                                                               |          2 |          2 |          8 |          0 |         10 |
+| assets\plugins\fontawesome\webfonts                                                                          |          3 |      8,954 |         12 |          3 |      8,969 |
+| assets\plugins\fullcalendar                                                                                  |          3 |         13 |          9 |          0 |         22 |
+| assets\plugins\icons                                                                                         |          7 |          7 |         21 |          0 |         28 |
+| assets\plugins\icons\feather                                                                                 |          1 |          1 |          0 |          0 |          1 |
+| assets\plugins\icons\flags                                                                                   |          1 |          1 |          0 |          0 |          1 |
+| assets\plugins\icons\ionic                                                                                   |          1 |          1 |          3 |          0 |          4 |
+| assets\plugins\icons\pe7                                                                                     |          1 |          1 |          0 |          0 |          1 |
+| assets\plugins\icons\themify                                                                                 |          1 |          1 |          0 |          0 |          1 |
+| assets\plugins\icons\typicons                                                                                |          1 |          1 |          0 |          0 |          1 |
+| assets\plugins\icons\weather                                                                                 |          1 |          1 |         18 |          0 |         19 |
+| assets\plugins\ion-rangeslider                                                                               |          3 |          3 |          1 |          0 |          4 |
+| assets\plugins\ion-rangeslider\css                                                                           |          1 |          1 |          0 |          0 |          1 |
+| assets\plugins\ion-rangeslider\js                                                                            |          2 |          2 |          1 |          0 |          3 |
+| assets\plugins\lightbox                                                                                      |          3 |          3 |          0 |          0 |          3 |
+| assets\plugins\material                                                                                      |          1 |      9,614 |          7 |      3,745 |     13,366 |
+| assets\plugins\moment                                                                                        |          1 |          1 |          1 |          0 |          2 |
+| assets\plugins\morris                                                                                        |          3 |          9 |         13 |          0 |         22 |
+| assets\plugins\owlcarousel                                                                                   |          3 |          4 |         15 |          0 |         19 |
+| assets\plugins\peity                                                                                         |          2 |         22 |          6 |          1 |         29 |
+| assets\plugins\raty                                                                                          |          2 |         74 |          9 |          0 |         83 |
+| assets\plugins\scrollbar                                                                                     |          3 |          3 |          0 |          0 |          3 |
+| assets\plugins\select2                                                                                       |          3 |          5 |          1 |          1 |          7 |
+| assets\plugins\select2\css                                                                                   |          1 |          1 |          0 |          1 |          2 |
+| assets\plugins\select2\js                                                                                    |          2 |          4 |          1 |          0 |          5 |
+| assets\plugins\simpleline                                                                                    |          1 |          1 |          0 |          0 |          1 |
+| assets\plugins\stickynote                                                                                    |          2 |         15 |          0 |          0 |         15 |
+| assets\plugins\summernote                                                                                    |          2 |          2 |          2 |          0 |          4 |
+| assets\plugins\sweetalert                                                                                    |          2 |          3 |          1 |          2 |          6 |
+| assets\plugins\toastr                                                                                        |          3 |          3 |          1 |          2 |          6 |
+| assets\plugins\twitter-bootstrap-wizard                                                                      |          4 |         16 |         11 |          1 |         28 |
+| auth                                                                                                         |        152 |     22,349 |        679 |      4,436 |     27,464 |
+| auth (Files)                                                                                                 |          3 |        144 |          1 |         30 |        175 |
+| auth\assets                                                                                                  |        149 |     22,205 |        678 |      4,406 |     27,289 |
+| auth\assets\css                                                                                              |          5 |          7 |         12 |          1 |         20 |
+| auth\assets\img                                                                                              |         62 |        257 |          0 |         61 |        318 |
+| auth\assets\img\icons                                                                                        |         62 |        257 |          0 |         61 |        318 |
+| auth\assets\js                                                                                               |         10 |        703 |         47 |          4 |        754 |
+| auth\assets\plugins                                                                                          |         72 |     21,238 |        619 |      4,340 |     26,197 |
+| auth\assets\plugins\alertify                                                                                 |          3 |          4 |          6 |          0 |         10 |
+| auth\assets\plugins\apexchart                                                                                |          2 |         24 |         11 |          1 |         36 |
+| auth\assets\plugins\chartjs                                                                                  |          2 |          3 |         11 |          1 |         15 |
+| auth\assets\plugins\clipboard                                                                                |          1 |          1 |          6 |          0 |          7 |
+| auth\assets\plugins\countup                                                                                  |          3 |         18 |         21 |          0 |         39 |
+| auth\assets\plugins\dragula                                                                                  |          3 |          3 |          0 |          0 |          3 |
+| auth\assets\plugins\dragula\css                                                                              |          1 |          1 |          0 |          0 |          1 |
+| auth\assets\plugins\dragula\js                                                                               |          2 |          2 |          0 |          0 |          2 |
+| auth\assets\plugins\fileupload                                                                               |          1 |          1 |          0 |          1 |          2 |
+| auth\assets\plugins\flot                                                                                     |          4 |      2,430 |        446 |        582 |      3,458 |
+| auth\assets\plugins\fontawesome                                                                              |          5 |      8,956 |         20 |          3 |      8,979 |
+| auth\assets\plugins\fontawesome\css                                                                          |          2 |          2 |          8 |          0 |         10 |
+| auth\assets\plugins\fontawesome\webfonts                                                                     |          3 |      8,954 |         12 |          3 |      8,969 |
+| auth\assets\plugins\fullcalendar                                                                             |          3 |         13 |          9 |          0 |         22 |
+| auth\assets\plugins\icons                                                                                    |          7 |          7 |         21 |          0 |         28 |
+| auth\assets\plugins\icons\feather                                                                            |          1 |          1 |          0 |          0 |          1 |
+| auth\assets\plugins\icons\flags                                                                              |          1 |          1 |          0 |          0 |          1 |
+| auth\assets\plugins\icons\ionic                                                                              |          1 |          1 |          3 |          0 |          4 |
+| auth\assets\plugins\icons\pe7                                                                                |          1 |          1 |          0 |          0 |          1 |
+| auth\assets\plugins\icons\themify                                                                            |          1 |          1 |          0 |          0 |          1 |
+| auth\assets\plugins\icons\typicons                                                                           |          1 |          1 |          0 |          0 |          1 |
+| auth\assets\plugins\icons\weather                                                                            |          1 |          1 |         18 |          0 |         19 |
+| auth\assets\plugins\ion-rangeslider                                                                          |          3 |          3 |          1 |          0 |          4 |
+| auth\assets\plugins\ion-rangeslider\css                                                                      |          1 |          1 |          0 |          0 |          1 |
+| auth\assets\plugins\ion-rangeslider\js                                                                       |          2 |          2 |          1 |          0 |          3 |
+| auth\assets\plugins\lightbox                                                                                 |          3 |          3 |          0 |          0 |          3 |
+| auth\assets\plugins\material                                                                                 |          1 |      9,614 |          7 |      3,745 |     13,366 |
+| auth\assets\plugins\moment                                                                                   |          1 |          1 |          1 |          0 |          2 |
+| auth\assets\plugins\morris                                                                                   |          3 |          9 |         13 |          0 |         22 |
+| auth\assets\plugins\owlcarousel                                                                              |          3 |          4 |         15 |          0 |         19 |
+| auth\assets\plugins\peity                                                                                    |          2 |         22 |          6 |          1 |         29 |
+| auth\assets\plugins\raty                                                                                     |          2 |         74 |          9 |          0 |         83 |
+| auth\assets\plugins\scrollbar                                                                                |          3 |          3 |          0 |          0 |          3 |
+| auth\assets\plugins\select2                                                                                  |          3 |          5 |          1 |          1 |          7 |
+| auth\assets\plugins\select2\css                                                                              |          1 |          1 |          0 |          1 |          2 |
+| auth\assets\plugins\select2\js                                                                               |          2 |          4 |          1 |          0 |          5 |
+| auth\assets\plugins\simpleline                                                                               |          1 |          1 |          0 |          0 |          1 |
+| auth\assets\plugins\stickynote                                                                               |          2 |         15 |          0 |          0 |         15 |
+| auth\assets\plugins\summernote                                                                               |          2 |          2 |          2 |          0 |          4 |
+| auth\assets\plugins\sweetalert                                                                               |          2 |          3 |          1 |          2 |          6 |
+| auth\assets\plugins\toastr                                                                                   |          3 |          3 |          1 |          2 |          6 |
+| auth\assets\plugins\twitter-bootstrap-wizard                                                                 |          4 |         16 |         11 |          1 |         28 |
+| css                                                                                                          |          7 |      4,474 |        137 |      1,465 |      6,076 |
+| font-awesome                                                                                                 |          2 |          6 |         10 |          2 |         18 |
+| font-awesome\css                                                                                             |          2 |          6 |         10 |          2 |         18 |
+| images                                                                                                       |          5 |          5 |          0 |          0 |          5 |
+| js                                                                                                           |          4 |        281 |         31 |         86 |        398 |
++--------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                     | language   | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| d:\php course\xammp\htdocs\ihub\404.html                                                                     | HTML       |         38 |          0 |         12 |         50 |
+| d:\php course\xammp\htdocs\ihub\500.html                                                                     | HTML       |         37 |          0 |         13 |         50 |
+| d:\php course\xammp\htdocs\ihub\503.html                                                                     | HTML       |         24 |          0 |          2 |         26 |
+| d:\php course\xammp\htdocs\ihub\about-us.php                                                                 | PHP        |        230 |          0 |         27 |        257 |
+| d:\php course\xammp\htdocs\ihub\admin\Program_delete.php                                                     | PHP        |         13 |          4 |          9 |         26 |
+| d:\php course\xammp\htdocs\ihub\admin\about-us.php                                                           | PHP        |        236 |          0 |         65 |        301 |
+| d:\php course\xammp\htdocs\ihub\admin\about_image_update.php                                                 | PHP        |         39 |          6 |         19 |         64 |
+| d:\php course\xammp\htdocs\ihub\admin\about_img.php                                                          | PHP        |        171 |         22 |         41 |        234 |
+| d:\php course\xammp\htdocs\ihub\admin\account.php                                                            | PHP        |        172 |         22 |         45 |        239 |
+| d:\php course\xammp\htdocs\ihub\admin\account_s.php                                                          | PHP        |         37 |          5 |         27 |         69 |
+| d:\php course\xammp\htdocs\ihub\admin\active_comment.php                                                     | PHP        |        238 |         24 |         63 |        325 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\css\animate.css                                                 | CSS        |          2 |          3 |          0 |          5 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\css\bootstrap-datetimepicker.min.css                            | CSS        |          1 |          4 |          0 |          5 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\css\bootstrap.min.css                                           | CSS        |          2 |          5 |          0 |          7 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\css\dataTables.bootstrap4.min.css                               | CSS        |          1 |          0 |          1 |          2 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\css\style.css                                                   | CSS        |         38 |          1 |         10 |         49 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\calendar.svg                                          | XML        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\calendars.svg                                         | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\cash.svg                                              | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\close-circle.svg                                      | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\close-circle1.svg                                     | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\closes.svg                                            | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\coment.svg                                            | XML        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\dash1.svg                                             | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\dash2.svg                                             | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\dash3.svg                                             | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\dash4.svg                                             | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\dashboard.svg                                         | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\datepicker.svg                                        | XML        |          6 |          0 |          1 |          7 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\debitcard.svg                                         | XML        |          6 |          0 |          1 |          7 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\delete-2.svg                                          | XML        |          7 |          0 |          1 |          8 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\delete.svg                                            | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\delete1.svg                                           | XML        |          7 |          0 |          1 |          8 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\dollar-square.svg                                     | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\dollar.svg                                            | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\download.svg                                          | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\dropdown.svg                                          | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\edit-5.svg                                            | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\edit-6.svg                                            | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\edit-set.svg                                          | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\edit.svg                                              | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\ellipise1.svg                                         | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\excel.svg                                             | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\expense1.svg                                          | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\eye.svg                                               | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\eye1.svg                                              | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\filter.svg                                            | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\house.svg                                             | XML        |          4 |          0 |          0 |          4 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\image.svg                                             | XML        |          2 |          0 |          0 |          2 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\log-out.svg                                           | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\macbook.svg                                           | XML        |          9 |          0 |          1 |         10 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\mail.svg                                              | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\minus.svg                                             | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\notification-bing.svg                                 | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\pause1.svg                                            | XML        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\pdf.svg                                               | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\places.svg                                            | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\plus-circle.svg                                       | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\plus.svg                                              | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\plus1.svg                                             | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\printer.svg                                           | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\product.svg                                           | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\purchase1.svg                                         | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\quotation1.svg                                        | XML        |          6 |          0 |          1 |          7 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\return1.svg                                           | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\reverse.svg                                           | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\sales1.svg                                            | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\scan.svg                                              | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\scanner.svg                                           | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\scanner1.svg                                          | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\scanners.svg                                          | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\search-white.svg                                      | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\search-whites.svg                                     | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\search.svg                                            | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\settings.svg                                          | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\time.svg                                              | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\transcation.svg                                       | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\transfer1.svg                                         | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\trash12.svg                                           | XML        |          7 |          0 |          1 |          8 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\upload.svg                                            | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\users.svg                                             | XML        |          5 |          1 |          0 |          6 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\users1.svg                                            | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\img\icons\wallet1.svg                                           | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\js\bootstrap-datetimepicker.min.js                              | JavaScript |          2 |          0 |          0 |          2 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\js\bootstrap.bundle.min.js                                      | JavaScript |          1 |          6 |          0 |          7 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\js\dataTables.bootstrap4.min.js                                 | JavaScript |         10 |          4 |          1 |         15 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\js\feather.min.js                                               | JavaScript |          2 |         11 |          0 |         13 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\js\jquery-3.6.0.min.js                                          | JavaScript |          1 |          1 |          1 |          3 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\js\jquery-ui.min.js                                             | JavaScript |          8 |          4 |          1 |         13 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\js\jquery.dataTables.min.js                                     | JavaScript |        568 |         14 |          1 |        583 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\js\jquery.slimscroll.min.js                                     | JavaScript |          9 |          7 |          0 |         16 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\js\moment.min.js                                                | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\js\script.js                                                    | JavaScript |        128 |         25 |         11 |        164 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\alertify\alertify.min.css                               | CSS        |          1 |          5 |          0 |          6 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\alertify\alertify.min.js                                | JavaScript |          2 |          1 |          0 |          3 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\alertify\custom-alertify.min.js                         | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\apexchart\apexcharts.min.js                             | JavaScript |          3 |         11 |          1 |         15 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\apexchart\chart-data.js                                 | JavaScript |         21 |          0 |          0 |         21 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\chartjs\chart-data.js                                   | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\chartjs\chart.min.js                                    | JavaScript |          2 |         11 |          1 |         14 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\clipboard\clipboard.min.js                              | JavaScript |          1 |          6 |          0 |          7 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\countup\jquery.counterup.min.js                         | JavaScript |          1 |          7 |          0 |          8 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\countup\jquery.missofis-countdown.js                    | JavaScript |         16 |          8 |          0 |         24 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\countup\jquery.waypoints.min.js                         | JavaScript |          1 |          6 |          0 |          7 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\dragula\css\dragula.min.css                             | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\dragula\js\drag-drop.min.js                             | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\dragula\js\dragula.min.js                               | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\fileupload\fileupload.min.js                            | JavaScript |          1 |          0 |          1 |          2 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\flot\chart-data.js                                      | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\flot\jquery.flot.fillbetween.js                         | JavaScript |        129 |         42 |         56 |        227 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\flot\jquery.flot.js                                     | JavaScript |      2,239 |        404 |        526 |      3,169 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\flot\jquery.flot.pie.js                                 | JavaScript |         61 |          0 |          0 |         61 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\fontawesome\css\all.min.css                             | CSS        |          1 |          4 |          0 |          5 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\fontawesome\css\fontawesome.min.css                     | CSS        |          1 |          4 |          0 |          5 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\fontawesome\webfonts\fa-brands-400.svg                  | XML        |      3,492 |          4 |          1 |      3,497 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\fontawesome\webfonts\fa-regular-400.svg                 | XML        |        799 |          4 |          1 |        804 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\fontawesome\webfonts\fa-solid-900.svg                   | XML        |      4,663 |          4 |          1 |      4,668 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\fullcalendar\fullcalendar.min.css                       | CSS        |          1 |          4 |          0 |          5 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\fullcalendar\fullcalendar.min.js                        | JavaScript |          5 |          5 |          0 |         10 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\fullcalendar\jquery.fullcalendar.js                     | JavaScript |          7 |          0 |          0 |          7 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\icons\feather\feather.css                               | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\icons\flags\flags.css                                   | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\icons\ionic\ionicons.css                                | CSS        |          1 |          3 |          0 |          4 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\icons\pe7\pe-icon-7.css                                 | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\icons\themify\themify.css                               | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\icons\typicons\typicons.css                             | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\icons\weather\weathericons.css                          | CSS        |          1 |         18 |          0 |         19 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\ion-rangeslider\css\ion.rangeSlider.min.css             | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\ion-rangeslider\js\custom-rangeslider.js                | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\ion-rangeslider\js\ion.rangeSlider.min.js               | JavaScript |          1 |          1 |          0 |          2 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\lightbox\glightbox.min.css                              | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\lightbox\glightbox.min.js                               | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\lightbox\lightbox.js                                    | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\material\materialdesignicons.css                        | CSS        |      9,614 |          7 |      3,745 |     13,366 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\moment\moment.min.js                                    | JavaScript |          1 |          1 |          0 |          2 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\morris\chart-data.js                                    | JavaScript |          4 |          0 |          0 |          4 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\morris\morris.min.js                                    | JavaScript |          2 |          5 |          0 |          7 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\morris\raphael-min.js                                   | JavaScript |          3 |          8 |          0 |         11 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\owlcarousel\owl.carousel.min.css                        | CSS        |          1 |          5 |          0 |          6 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\owlcarousel\owl.carousel.min.js                         | JavaScript |          2 |          5 |          0 |          7 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\owlcarousel\owl.theme.default.min.css                   | CSS        |          1 |          5 |          0 |          6 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\peity\chart-data.js                                     | JavaScript |         21 |          0 |          0 |         21 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\peity\jquery.peity.min.js                               | JavaScript |          1 |          6 |          1 |          8 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\raty\custom.raty.js                                     | JavaScript |         18 |          0 |          0 |         18 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\raty\jquery.raty.js                                     | JavaScript |         56 |          9 |          0 |         65 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\scrollbar\custom-scroll.js                              | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\scrollbar\scroll.min.css                                | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\scrollbar\scrollbar.min.js                              | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\select2\css\select2.min.css                             | CSS        |          1 |          0 |          1 |          2 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\select2\js\custom-select.js                             | JavaScript |          3 |          0 |          0 |          3 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\select2\js\select2.min.js                               | JavaScript |          1 |          1 |          0 |          2 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\simpleline\simple-line-icons.css                        | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\stickynote\sticky.css                                   | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\stickynote\sticky.js                                    | JavaScript |         14 |          0 |          0 |         14 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\summernote\summernote-bs4.min.css                       | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\summernote\summernote-bs4.min.js                        | JavaScript |          1 |          2 |          0 |          3 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\sweetalert\sweetalert2.all.min.js                       | JavaScript |          2 |          1 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\sweetalert\sweetalerts.min.js                           | JavaScript |          1 |          0 |          1 |          2 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\toastr\toastr.js                                        | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\toastr\toastr.min.js                                    | JavaScript |          1 |          1 |          2 |          4 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\toastr\toatr.css                                        | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\twitter-bootstrap-wizard\form-wizard.css                | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\twitter-bootstrap-wizard\form-wizard.js                 | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\twitter-bootstrap-wizard\jquery.bootstrap.wizard.min.js | JavaScript |         11 |         11 |          1 |         23 |
+| d:\php course\xammp\htdocs\ihub\admin\assets\plugins\twitter-bootstrap-wizard\prettify.js                    | JavaScript |          3 |          0 |          0 |          3 |
+| d:\php course\xammp\htdocs\ihub\admin\check_event.php                                                        | PHP        |         30 |          4 |         15 |         49 |
+| d:\php course\xammp\htdocs\ihub\admin\check_img.php                                                          | PHP        |         35 |          5 |         20 |         60 |
+| d:\php course\xammp\htdocs\ihub\admin\check_p_comment.php                                                    | PHP        |         38 |          5 |         15 |         58 |
+| d:\php course\xammp\htdocs\ihub\admin\check_prog.php                                                         | PHP        |         30 |          4 |         15 |         49 |
+| d:\php course\xammp\htdocs\ihub\admin\check_ser.php                                                          | PHP        |         38 |          5 |         15 |         58 |
+| d:\php course\xammp\htdocs\ihub\admin\check_team.php                                                         | PHP        |         40 |          5 |         15 |         60 |
+| d:\php course\xammp\htdocs\ihub\admin\check_val.php                                                          | PHP        |         29 |          2 |         16 |         47 |
+| d:\php course\xammp\htdocs\ihub\admin\conn.php                                                               | PHP        |         14 |          1 |          3 |         18 |
+| d:\php course\xammp\htdocs\ihub\admin\current_coment_delete.php                                              | PHP        |         13 |          4 |          9 |         26 |
+| d:\php course\xammp\htdocs\ihub\admin\dashboard.php                                                          | PHP        |        128 |          8 |         27 |        163 |
+| d:\php course\xammp\htdocs\ihub\admin\edit_herro_text.php                                                    | PHP        |        197 |          0 |         66 |        263 |
+| d:\php course\xammp\htdocs\ihub\admin\error.php                                                              | PHP        |         71 |          0 |         30 |        101 |
+| d:\php course\xammp\htdocs\ihub\admin\event.php                                                              | PHP        |        211 |          7 |         55 |        273 |
+| d:\php course\xammp\htdocs\ihub\admin\event_delete.php                                                       | PHP        |         13 |          4 |          9 |         26 |
+| d:\php course\xammp\htdocs\ihub\admin\footer.php                                                             | PHP        |          0 |          0 |          1 |          1 |
+| d:\php course\xammp\htdocs\ihub\admin\get_device_datetime.php                                                | PHP        |         10 |          4 |          5 |         19 |
+| d:\php course\xammp\htdocs\ihub\admin\header.php                                                             | PHP        |        182 |          5 |         27 |        214 |
+| d:\php course\xammp\htdocs\ihub\admin\image.php                                                              | PHP        |        199 |          5 |         44 |        248 |
+| d:\php course\xammp\htdocs\ihub\admin\image_delete.php                                                       | PHP        |         13 |          4 |          9 |         26 |
+| d:\php course\xammp\htdocs\ihub\admin\image_update.php                                                       | PHP        |         39 |          6 |         19 |         64 |
+| d:\php course\xammp\htdocs\ihub\admin\index.php                                                              | PHP        |        124 |          0 |         34 |        158 |
+| d:\php course\xammp\htdocs\ihub\admin\insert_active_coment.php                                               | PHP        |         30 |          0 |         17 |         47 |
+| d:\php course\xammp\htdocs\ihub\admin\js\img.js                                                              | JavaScript |         61 |         18 |         11 |         90 |
+| d:\php course\xammp\htdocs\ihub\admin\js\sweet-alert.js                                                      | JavaScript |          2 |          4 |          0 |          6 |
+| d:\php course\xammp\htdocs\ihub\admin\logout.php                                                             | PHP        |          8 |          0 |          6 |         14 |
+| d:\php course\xammp\htdocs\ihub\admin\member_delete.php                                                      | PHP        |         13 |          4 |          9 |         26 |
+| d:\php course\xammp\htdocs\ihub\admin\our_prog.php                                                           | PHP        |        238 |          7 |         54 |        299 |
+| d:\php course\xammp\htdocs\ihub\admin\our_ser.php                                                            | PHP        |        286 |         24 |         61 |        371 |
+| d:\php course\xammp\htdocs\ihub\admin\our_team.php                                                           | PHP        |        290 |         24 |         60 |        374 |
+| d:\php course\xammp\htdocs\ihub\admin\our_val.php                                                            | PHP        |        237 |          7 |         48 |        292 |
+| d:\php course\xammp\htdocs\ihub\admin\p_coment_delete.php                                                    | PHP        |         13 |          4 |          9 |         26 |
+| d:\php course\xammp\htdocs\ihub\admin\p_comment.php                                                          | PHP        |        247 |         24 |         63 |        334 |
+| d:\php course\xammp\htdocs\ihub\admin\profile.php                                                            | PHP        |        194 |          0 |         41 |        235 |
+| d:\php course\xammp\htdocs\ihub\admin\profile_img.php                                                        | PHP        |        171 |         22 |         41 |        234 |
+| d:\php course\xammp\htdocs\ihub\admin\profile_img_update.php                                                 | PHP        |         39 |          6 |         19 |         64 |
+| d:\php course\xammp\htdocs\ihub\admin\profile_s.php                                                          | PHP        |         28 |          5 |         21 |         54 |
+| d:\php course\xammp\htdocs\ihub\admin\prog_update.php                                                        | PHP        |         30 |          3 |         15 |         48 |
+| d:\php course\xammp\htdocs\ihub\admin\security.php                                                           | PHP        |         10 |          0 |          4 |         14 |
+| d:\php course\xammp\htdocs\ihub\admin\serv_update.php                                                        | PHP        |         38 |          6 |         16 |         60 |
+| d:\php course\xammp\htdocs\ihub\admin\service_delete.php                                                     | PHP        |         13 |          4 |          9 |         26 |
+| d:\php course\xammp\htdocs\ihub\admin\side-bar.php                                                           | PHP        |         59 |          0 |          1 |         60 |
+| d:\php course\xammp\htdocs\ihub\admin\success.php                                                            | PHP        |         72 |          0 |         30 |        102 |
+| d:\php course\xammp\htdocs\ihub\admin\team_update.php                                                        | PHP        |         50 |          9 |         13 |         72 |
+| d:\php course\xammp\htdocs\ihub\admin\update_Program.php                                                     | PHP        |        144 |          5 |         37 |        186 |
+| d:\php course\xammp\htdocs\ihub\admin\update_img.php                                                         | PHP        |        171 |         22 |         41 |        234 |
+| d:\php course\xammp\htdocs\ihub\admin\update_service.php                                                     | PHP        |        190 |         22 |         43 |        255 |
+| d:\php course\xammp\htdocs\ihub\admin\update_team.php                                                        | PHP        |        196 |         22 |         43 |        261 |
+| d:\php course\xammp\htdocs\ihub\admin\update_val.php                                                         | PHP        |        178 |         22 |         44 |        244 |
+| d:\php course\xammp\htdocs\ihub\admin\val_update.php                                                         | PHP        |         29 |          2 |         15 |         46 |
+| d:\php course\xammp\htdocs\ihub\admin\value_delete.php                                                       | PHP        |         13 |          4 |          9 |         26 |
+| d:\php course\xammp\htdocs\ihub\assets\css\animate.css                                                       | CSS        |          2 |          3 |          0 |          5 |
+| d:\php course\xammp\htdocs\ihub\assets\css\bootstrap-datetimepicker.min.css                                  | CSS        |          1 |          4 |          0 |          5 |
+| d:\php course\xammp\htdocs\ihub\assets\css\bootstrap.min.css                                                 | CSS        |          2 |          5 |          0 |          7 |
+| d:\php course\xammp\htdocs\ihub\assets\css\dataTables.bootstrap4.min.css                                     | CSS        |          1 |          0 |          1 |          2 |
+| d:\php course\xammp\htdocs\ihub\assets\css\style.css                                                         | CSS        |          1 |          0 |          2 |          3 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\calendars.svg                                               | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\cash.svg                                                    | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\close-circle.svg                                            | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\close-circle1.svg                                           | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\closes.svg                                                  | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\coment.svg                                                  | XML        |          5 |          1 |          0 |          6 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\dash1.svg                                                   | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\dash2.svg                                                   | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\dash3.svg                                                   | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\dash4.svg                                                   | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\dashboard.svg                                               | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\datepicker.svg                                              | XML        |          6 |          0 |          1 |          7 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\debitcard.svg                                               | XML        |          6 |          0 |          1 |          7 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\delete-2.svg                                                | XML        |          7 |          0 |          1 |          8 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\delete.svg                                                  | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\delete1.svg                                                 | XML        |          7 |          0 |          1 |          8 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\dollar-square.svg                                           | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\dollar.svg                                                  | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\download.svg                                                | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\dropdown.svg                                                | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\edit-5.svg                                                  | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\edit-6.svg                                                  | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\edit-set.svg                                                | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\edit.svg                                                    | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\ellipise1.svg                                               | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\excel.svg                                                   | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\expense1.svg                                                | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\eye.svg                                                     | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\eye1.svg                                                    | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\filter.svg                                                  | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\image.svg                                                   | XML        |          2 |          0 |          0 |          2 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\log-out.svg                                                 | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\macbook.svg                                                 | XML        |          9 |          0 |          1 |         10 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\mail.svg                                                    | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\minus.svg                                                   | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\notification-bing.svg                                       | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\pause1.svg                                                  | XML        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\pdf.svg                                                     | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\places.svg                                                  | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\plus-circle.svg                                             | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\plus.svg                                                    | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\plus1.svg                                                   | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\printer.svg                                                 | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\product.svg                                                 | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\purchase1.svg                                               | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\quotation1.svg                                              | XML        |          6 |          0 |          1 |          7 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\return1.svg                                                 | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\reverse.svg                                                 | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\sales1.svg                                                  | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\scan.svg                                                    | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\scanner.svg                                                 | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\scanner1.svg                                                | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\scanners.svg                                                | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\search-white.svg                                            | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\search-whites.svg                                           | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\search.svg                                                  | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\settings.svg                                                | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\time.svg                                                    | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\transcation.svg                                             | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\transfer1.svg                                               | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\trash12.svg                                                 | XML        |          7 |          0 |          1 |          8 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\upload.svg                                                  | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\users.svg                                                   | XML        |          5 |          1 |          0 |          6 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\users1.svg                                                  | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\assets\img\icons\wallet1.svg                                                 | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\assets\js\bootstrap-datetimepicker.min.js                                    | JavaScript |          2 |          0 |          0 |          2 |
+| d:\php course\xammp\htdocs\ihub\assets\js\bootstrap.bundle.min.js                                            | JavaScript |          1 |          6 |          0 |          7 |
+| d:\php course\xammp\htdocs\ihub\assets\js\dataTables.bootstrap4.min.js                                       | JavaScript |         10 |          4 |          1 |         15 |
+| d:\php course\xammp\htdocs\ihub\assets\js\feather.min.js                                                     | JavaScript |          2 |         11 |          0 |         13 |
+| d:\php course\xammp\htdocs\ihub\assets\js\jquery-3.6.0.min.js                                                | JavaScript |          1 |          1 |          1 |          3 |
+| d:\php course\xammp\htdocs\ihub\assets\js\jquery-ui.min.js                                                   | JavaScript |          8 |          4 |          1 |         13 |
+| d:\php course\xammp\htdocs\ihub\assets\js\jquery.dataTables.min.js                                           | JavaScript |        568 |         14 |          1 |        583 |
+| d:\php course\xammp\htdocs\ihub\assets\js\jquery.slimscroll.min.js                                           | JavaScript |          9 |          7 |          0 |         16 |
+| d:\php course\xammp\htdocs\ihub\assets\js\moment.min.js                                                      | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\assets\js\script.js                                                          | JavaScript |        101 |          0 |          0 |        101 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\alertify\alertify.min.css                                     | CSS        |          1 |          5 |          0 |          6 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\alertify\alertify.min.js                                      | JavaScript |          2 |          1 |          0 |          3 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\alertify\custom-alertify.min.js                               | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\apexchart\apexcharts.min.js                                   | JavaScript |          3 |         11 |          1 |         15 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\apexchart\chart-data.js                                       | JavaScript |         21 |          0 |          0 |         21 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\chartjs\chart-data.js                                         | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\chartjs\chart.min.js                                          | JavaScript |          2 |         11 |          1 |         14 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\clipboard\clipboard.min.js                                    | JavaScript |          1 |          6 |          0 |          7 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\countup\jquery.counterup.min.js                               | JavaScript |          1 |          7 |          0 |          8 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\countup\jquery.missofis-countdown.js                          | JavaScript |         16 |          8 |          0 |         24 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\countup\jquery.waypoints.min.js                               | JavaScript |          1 |          6 |          0 |          7 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\dragula\css\dragula.min.css                                   | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\dragula\js\drag-drop.min.js                                   | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\dragula\js\dragula.min.js                                     | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\fileupload\fileupload.min.js                                  | JavaScript |          1 |          0 |          1 |          2 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\flot\chart-data.js                                            | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\flot\jquery.flot.fillbetween.js                               | JavaScript |        129 |         42 |         56 |        227 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\flot\jquery.flot.js                                           | JavaScript |      2,239 |        404 |        526 |      3,169 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\flot\jquery.flot.pie.js                                       | JavaScript |         61 |          0 |          0 |         61 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\fontawesome\css\all.min.css                                   | CSS        |          1 |          4 |          0 |          5 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\fontawesome\css\fontawesome.min.css                           | CSS        |          1 |          4 |          0 |          5 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\fontawesome\webfonts\fa-brands-400.svg                        | XML        |      3,492 |          4 |          1 |      3,497 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\fontawesome\webfonts\fa-regular-400.svg                       | XML        |        799 |          4 |          1 |        804 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\fontawesome\webfonts\fa-solid-900.svg                         | XML        |      4,663 |          4 |          1 |      4,668 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\fullcalendar\fullcalendar.min.css                             | CSS        |          1 |          4 |          0 |          5 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\fullcalendar\fullcalendar.min.js                              | JavaScript |          5 |          5 |          0 |         10 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\fullcalendar\jquery.fullcalendar.js                           | JavaScript |          7 |          0 |          0 |          7 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\icons\feather\feather.css                                     | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\icons\flags\flags.css                                         | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\icons\ionic\ionicons.css                                      | CSS        |          1 |          3 |          0 |          4 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\icons\pe7\pe-icon-7.css                                       | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\icons\themify\themify.css                                     | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\icons\typicons\typicons.css                                   | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\icons\weather\weathericons.css                                | CSS        |          1 |         18 |          0 |         19 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\ion-rangeslider\css\ion.rangeSlider.min.css                   | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\ion-rangeslider\js\custom-rangeslider.js                      | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\ion-rangeslider\js\ion.rangeSlider.min.js                     | JavaScript |          1 |          1 |          0 |          2 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\lightbox\glightbox.min.css                                    | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\lightbox\glightbox.min.js                                     | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\lightbox\lightbox.js                                          | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\material\materialdesignicons.css                              | CSS        |      9,614 |          7 |      3,745 |     13,366 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\moment\moment.min.js                                          | JavaScript |          1 |          1 |          0 |          2 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\morris\chart-data.js                                          | JavaScript |          4 |          0 |          0 |          4 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\morris\morris.min.js                                          | JavaScript |          2 |          5 |          0 |          7 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\morris\raphael-min.js                                         | JavaScript |          3 |          8 |          0 |         11 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\owlcarousel\owl.carousel.min.css                              | CSS        |          1 |          5 |          0 |          6 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\owlcarousel\owl.carousel.min.js                               | JavaScript |          2 |          5 |          0 |          7 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\owlcarousel\owl.theme.default.min.css                         | CSS        |          1 |          5 |          0 |          6 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\peity\chart-data.js                                           | JavaScript |         21 |          0 |          0 |         21 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\peity\jquery.peity.min.js                                     | JavaScript |          1 |          6 |          1 |          8 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\raty\custom.raty.js                                           | JavaScript |         18 |          0 |          0 |         18 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\raty\jquery.raty.js                                           | JavaScript |         56 |          9 |          0 |         65 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\scrollbar\custom-scroll.js                                    | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\scrollbar\scroll.min.css                                      | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\scrollbar\scrollbar.min.js                                    | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\select2\css\select2.min.css                                   | CSS        |          1 |          0 |          1 |          2 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\select2\js\custom-select.js                                   | JavaScript |          3 |          0 |          0 |          3 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\select2\js\select2.min.js                                     | JavaScript |          1 |          1 |          0 |          2 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\simpleline\simple-line-icons.css                              | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\stickynote\sticky.css                                         | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\stickynote\sticky.js                                          | JavaScript |         14 |          0 |          0 |         14 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\summernote\summernote-bs4.min.css                             | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\summernote\summernote-bs4.min.js                              | JavaScript |          1 |          2 |          0 |          3 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\sweetalert\sweetalert2.all.min.js                             | JavaScript |          2 |          1 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\sweetalert\sweetalerts.min.js                                 | JavaScript |          1 |          0 |          1 |          2 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\toastr\toastr.js                                              | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\toastr\toastr.min.js                                          | JavaScript |          1 |          1 |          2 |          4 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\toastr\toatr.css                                              | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\twitter-bootstrap-wizard\form-wizard.css                      | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\twitter-bootstrap-wizard\form-wizard.js                       | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\twitter-bootstrap-wizard\jquery.bootstrap.wizard.min.js       | JavaScript |         11 |         11 |          1 |         23 |
+| d:\php course\xammp\htdocs\ihub\assets\plugins\twitter-bootstrap-wizard\prettify.js                          | JavaScript |          3 |          0 |          0 |          3 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\css\animate.css                                                  | CSS        |          2 |          3 |          0 |          5 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\css\bootstrap-datetimepicker.min.css                             | CSS        |          1 |          4 |          0 |          5 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\css\bootstrap.min.css                                            | CSS        |          2 |          5 |          0 |          7 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\css\dataTables.bootstrap4.min.css                                | CSS        |          1 |          0 |          1 |          2 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\css\style.css                                                    | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\calendars.svg                                          | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\cash.svg                                               | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\close-circle.svg                                       | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\close-circle1.svg                                      | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\closes.svg                                             | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\dash1.svg                                              | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\dash2.svg                                              | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\dash3.svg                                              | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\dash4.svg                                              | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\dashboard.svg                                          | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\datepicker.svg                                         | XML        |          6 |          0 |          1 |          7 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\debitcard.svg                                          | XML        |          6 |          0 |          1 |          7 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\delete-2.svg                                           | XML        |          7 |          0 |          1 |          8 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\delete.svg                                             | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\delete1.svg                                            | XML        |          7 |          0 |          1 |          8 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\dollar-square.svg                                      | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\dollar.svg                                             | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\download.svg                                           | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\dropdown.svg                                           | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\edit-5.svg                                             | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\edit-6.svg                                             | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\edit-set.svg                                           | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\edit.svg                                               | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\ellipise1.svg                                          | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\excel.svg                                              | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\expense1.svg                                           | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\eye.svg                                                | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\eye1.svg                                               | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\filter.svg                                             | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\log-out.svg                                            | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\macbook.svg                                            | XML        |          9 |          0 |          1 |         10 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\mail.svg                                               | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\minus.svg                                              | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\notification-bing.svg                                  | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\pause1.svg                                             | XML        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\pdf.svg                                                | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\places.svg                                             | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\plus-circle.svg                                        | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\plus.svg                                               | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\plus1.svg                                              | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\printer.svg                                            | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\product.svg                                            | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\purchase1.svg                                          | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\quotation1.svg                                         | XML        |          6 |          0 |          1 |          7 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\return1.svg                                            | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\reverse.svg                                            | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\sales1.svg                                             | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\scan.svg                                               | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\scanner.svg                                            | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\scanner1.svg                                           | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\scanners.svg                                           | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\search-white.svg                                       | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\search-whites.svg                                      | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\search.svg                                             | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\settings.svg                                           | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\time.svg                                               | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\transcation.svg                                        | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\transfer1.svg                                          | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\trash12.svg                                            | XML        |          7 |          0 |          1 |          8 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\upload.svg                                             | XML        |          4 |          0 |          1 |          5 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\users1.svg                                             | XML        |          3 |          0 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\img\icons\wallet1.svg                                            | XML        |          5 |          0 |          1 |          6 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\js\bootstrap-datetimepicker.min.js                               | JavaScript |          2 |          0 |          0 |          2 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\js\bootstrap.bundle.min.js                                       | JavaScript |          1 |          6 |          0 |          7 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\js\dataTables.bootstrap4.min.js                                  | JavaScript |         10 |          4 |          1 |         15 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\js\feather.min.js                                                | JavaScript |          2 |         11 |          0 |         13 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\js\jquery-3.6.0.min.js                                           | JavaScript |          1 |          1 |          1 |          3 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\js\jquery-ui.min.js                                              | JavaScript |          8 |          4 |          1 |         13 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\js\jquery.dataTables.min.js                                      | JavaScript |        568 |         14 |          1 |        583 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\js\jquery.slimscroll.min.js                                      | JavaScript |          9 |          7 |          0 |         16 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\js\moment.min.js                                                 | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\js\script.js                                                     | JavaScript |        101 |          0 |          0 |        101 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\alertify\alertify.min.css                                | CSS        |          1 |          5 |          0 |          6 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\alertify\alertify.min.js                                 | JavaScript |          2 |          1 |          0 |          3 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\alertify\custom-alertify.min.js                          | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\apexchart\apexcharts.min.js                              | JavaScript |          3 |         11 |          1 |         15 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\apexchart\chart-data.js                                  | JavaScript |         21 |          0 |          0 |         21 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\chartjs\chart-data.js                                    | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\chartjs\chart.min.js                                     | JavaScript |          2 |         11 |          1 |         14 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\clipboard\clipboard.min.js                               | JavaScript |          1 |          6 |          0 |          7 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\countup\jquery.counterup.min.js                          | JavaScript |          1 |          7 |          0 |          8 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\countup\jquery.missofis-countdown.js                     | JavaScript |         16 |          8 |          0 |         24 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\countup\jquery.waypoints.min.js                          | JavaScript |          1 |          6 |          0 |          7 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\dragula\css\dragula.min.css                              | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\dragula\js\drag-drop.min.js                              | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\dragula\js\dragula.min.js                                | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\fileupload\fileupload.min.js                             | JavaScript |          1 |          0 |          1 |          2 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\flot\chart-data.js                                       | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\flot\jquery.flot.fillbetween.js                          | JavaScript |        129 |         42 |         56 |        227 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\flot\jquery.flot.js                                      | JavaScript |      2,239 |        404 |        526 |      3,169 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\flot\jquery.flot.pie.js                                  | JavaScript |         61 |          0 |          0 |         61 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\fontawesome\css\all.min.css                              | CSS        |          1 |          4 |          0 |          5 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\fontawesome\css\fontawesome.min.css                      | CSS        |          1 |          4 |          0 |          5 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\fontawesome\webfonts\fa-brands-400.svg                   | XML        |      3,492 |          4 |          1 |      3,497 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\fontawesome\webfonts\fa-regular-400.svg                  | XML        |        799 |          4 |          1 |        804 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\fontawesome\webfonts\fa-solid-900.svg                    | XML        |      4,663 |          4 |          1 |      4,668 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\fullcalendar\fullcalendar.min.css                        | CSS        |          1 |          4 |          0 |          5 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\fullcalendar\fullcalendar.min.js                         | JavaScript |          5 |          5 |          0 |         10 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\fullcalendar\jquery.fullcalendar.js                      | JavaScript |          7 |          0 |          0 |          7 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\icons\feather\feather.css                                | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\icons\flags\flags.css                                    | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\icons\ionic\ionicons.css                                 | CSS        |          1 |          3 |          0 |          4 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\icons\pe7\pe-icon-7.css                                  | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\icons\themify\themify.css                                | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\icons\typicons\typicons.css                              | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\icons\weather\weathericons.css                           | CSS        |          1 |         18 |          0 |         19 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\ion-rangeslider\css\ion.rangeSlider.min.css              | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\ion-rangeslider\js\custom-rangeslider.js                 | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\ion-rangeslider\js\ion.rangeSlider.min.js                | JavaScript |          1 |          1 |          0 |          2 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\lightbox\glightbox.min.css                               | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\lightbox\glightbox.min.js                                | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\lightbox\lightbox.js                                     | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\material\materialdesignicons.css                         | CSS        |      9,614 |          7 |      3,745 |     13,366 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\moment\moment.min.js                                     | JavaScript |          1 |          1 |          0 |          2 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\morris\chart-data.js                                     | JavaScript |          4 |          0 |          0 |          4 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\morris\morris.min.js                                     | JavaScript |          2 |          5 |          0 |          7 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\morris\raphael-min.js                                    | JavaScript |          3 |          8 |          0 |         11 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\owlcarousel\owl.carousel.min.css                         | CSS        |          1 |          5 |          0 |          6 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\owlcarousel\owl.carousel.min.js                          | JavaScript |          2 |          5 |          0 |          7 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\owlcarousel\owl.theme.default.min.css                    | CSS        |          1 |          5 |          0 |          6 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\peity\chart-data.js                                      | JavaScript |         21 |          0 |          0 |         21 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\peity\jquery.peity.min.js                                | JavaScript |          1 |          6 |          1 |          8 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\raty\custom.raty.js                                      | JavaScript |         18 |          0 |          0 |         18 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\raty\jquery.raty.js                                      | JavaScript |         56 |          9 |          0 |         65 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\scrollbar\custom-scroll.js                               | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\scrollbar\scroll.min.css                                 | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\scrollbar\scrollbar.min.js                               | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\select2\css\select2.min.css                              | CSS        |          1 |          0 |          1 |          2 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\select2\js\custom-select.js                              | JavaScript |          3 |          0 |          0 |          3 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\select2\js\select2.min.js                                | JavaScript |          1 |          1 |          0 |          2 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\simpleline\simple-line-icons.css                         | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\stickynote\sticky.css                                    | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\stickynote\sticky.js                                     | JavaScript |         14 |          0 |          0 |         14 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\summernote\summernote-bs4.min.css                        | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\summernote\summernote-bs4.min.js                         | JavaScript |          1 |          2 |          0 |          3 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\sweetalert\sweetalert2.all.min.js                        | JavaScript |          2 |          1 |          1 |          4 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\sweetalert\sweetalerts.min.js                            | JavaScript |          1 |          0 |          1 |          2 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\toastr\toastr.js                                         | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\toastr\toastr.min.js                                     | JavaScript |          1 |          1 |          2 |          4 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\toastr\toatr.css                                         | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\twitter-bootstrap-wizard\form-wizard.css                 | CSS        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\twitter-bootstrap-wizard\form-wizard.js                  | JavaScript |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\twitter-bootstrap-wizard\jquery.bootstrap.wizard.min.js  | JavaScript |         11 |         11 |          1 |         23 |
+| d:\php course\xammp\htdocs\ihub\auth\assets\plugins\twitter-bootstrap-wizard\prettify.js                     | JavaScript |          3 |          0 |          0 |          3 |
+| d:\php course\xammp\htdocs\ihub\auth\check_user.php                                                          | PHP        |         47 |          0 |          9 |         56 |
+| d:\php course\xammp\htdocs\ihub\auth\conn.php                                                                | PHP        |         14 |          1 |          3 |         18 |
+| d:\php course\xammp\htdocs\ihub\auth\singin.php                                                              | PHP        |         83 |          0 |         18 |        101 |
+| d:\php course\xammp\htdocs\ihub\baroowo.html                                                                 | HTML       |        236 |          1 |         49 |        286 |
+| d:\php course\xammp\htdocs\ihub\brk.html                                                                     | HTML       |        173 |          1 |         18 |        192 |
+| d:\php course\xammp\htdocs\ihub\contact-us.php                                                               | PHP        |        158 |          2 |         15 |        175 |
+| d:\php course\xammp\htdocs\ihub\css\about-us.css                                                             | CSS        |      2,050 |         59 |        711 |      2,820 |
+| d:\php course\xammp\htdocs\ihub\css\contac-us.css                                                            | CSS        |        191 |          3 |         20 |        214 |
+| d:\php course\xammp\htdocs\ihub\css\logo-slider.css                                                          | CSS        |         58 |          2 |         12 |         72 |
+| d:\php course\xammp\htdocs\ihub\css\our-programs.css                                                         | CSS        |        151 |          5 |         59 |        215 |
+| d:\php course\xammp\htdocs\ihub\css\our-services.css                                                         | CSS        |        152 |          5 |         57 |        214 |
+| d:\php course\xammp\htdocs\ihub\css\style.css                                                                | CSS        |      1,635 |         44 |        578 |      2,257 |
+| d:\php course\xammp\htdocs\ihub\css\testmonial.css                                                           | CSS        |        237 |         19 |         28 |        284 |
+| d:\php course\xammp\htdocs\ihub\font-awesome\css\all.min.css                                                 | CSS        |          3 |          5 |          1 |          9 |
+| d:\php course\xammp\htdocs\ihub\font-awesome\css\fontawesome.min.css                                         | CSS        |          3 |          5 |          1 |          9 |
+| d:\php course\xammp\htdocs\ihub\images\icon-next.svg                                                         | XML        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\images\icon-prev.svg                                                         | XML        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\images\pattern-bg.svg                                                        | XML        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\images\pattern-curve.svg                                                     | XML        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\images\pattern-quotes.svg                                                    | XML        |          1 |          0 |          0 |          1 |
+| d:\php course\xammp\htdocs\ihub\index.php                                                                    | PHP        |        513 |         17 |         83 |        613 |
+| d:\php course\xammp\htdocs\ihub\js\jquery-3.7.1.min.js                                                       | JavaScript |          1 |          1 |          0 |          2 |
+| d:\php course\xammp\htdocs\ihub\js\logo-slider.js                                                            | JavaScript |         31 |          1 |          2 |         34 |
+| d:\php course\xammp\htdocs\ihub\js\main.js                                                                   | JavaScript |        190 |         19 |         68 |        277 |
+| d:\php course\xammp\htdocs\ihub\js\testmonial.js                                                             | JavaScript |         59 |         10 |         16 |         85 |
+| d:\php course\xammp\htdocs\ihub\our-programs.php                                                             | PHP        |        143 |          0 |         13 |        156 |
+| d:\php course\xammp\htdocs\ihub\our-services.php                                                             | PHP        |        144 |          0 |         12 |        156 |
+| Total                                                                                                        |            |     78,720 |      2,694 |     16,566 |     97,980 |
++--------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

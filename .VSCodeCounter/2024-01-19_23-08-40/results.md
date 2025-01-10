@@ -1,0 +1,180 @@
+# Summary
+
+Date : 2024-01-19 23:08:40
+
+Directory d:\\php course\\xammp\\htdocs\\ihub
+
+Total : 543 files,  78720 codes, 2694 comments, 16566 blanks, all 97980 lines
+
+Summary / [Details](details.md) / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
+
+## Languages
+| language | files | code | comment | blank | total |
+| :--- | ---: | ---: | ---: | ---: | ---: |
+| CSS | 96 | 33,449 | 349 | 12,720 | 46,518 |
+| XML | 208 | 27,663 | 39 | 192 | 27,894 |
+| JavaScript | 171 | 10,421 | 1,875 | 1,893 | 14,189 |
+| PHP | 63 | 6,679 | 429 | 1,667 | 8,775 |
+| HTML | 5 | 508 | 2 | 94 | 604 |
+
+## Directories
+| path | files | code | comment | blank | total |
+| :--- | ---: | ---: | ---: | ---: | ---: |
+| . | 543 | 78,720 | 2,694 | 16,566 | 97,980 |
+| . (Files) | 10 | 1,696 | 21 | 244 | 1,961 |
+| admin | 211 | 27,692 | 1,136 | 5,925 | 34,753 |
+| admin (Files) | 55 | 5,347 | 409 | 1,487 | 7,243 |
+| admin\\assets | 154 | 22,282 | 705 | 4,427 | 27,414 |
+| admin\\assets\\css | 5 | 44 | 13 | 11 | 68 |
+| admin\\assets\\img | 67 | 270 | 1 | 61 | 332 |
+| admin\\assets\\img\\icons | 67 | 270 | 1 | 61 | 332 |
+| admin\\assets\\js | 10 | 730 | 72 | 15 | 817 |
+| admin\\assets\\plugins | 72 | 21,238 | 619 | 4,340 | 26,197 |
+| admin\\assets\\plugins\\alertify | 3 | 4 | 6 | 0 | 10 |
+| admin\\assets\\plugins\\apexchart | 2 | 24 | 11 | 1 | 36 |
+| admin\\assets\\plugins\\chartjs | 2 | 3 | 11 | 1 | 15 |
+| admin\\assets\\plugins\\clipboard | 1 | 1 | 6 | 0 | 7 |
+| admin\\assets\\plugins\\countup | 3 | 18 | 21 | 0 | 39 |
+| admin\\assets\\plugins\\dragula | 3 | 3 | 0 | 0 | 3 |
+| admin\\assets\\plugins\\dragula\\css | 1 | 1 | 0 | 0 | 1 |
+| admin\\assets\\plugins\\dragula\\js | 2 | 2 | 0 | 0 | 2 |
+| admin\\assets\\plugins\\fileupload | 1 | 1 | 0 | 1 | 2 |
+| admin\\assets\\plugins\\flot | 4 | 2,430 | 446 | 582 | 3,458 |
+| admin\\assets\\plugins\\fontawesome | 5 | 8,956 | 20 | 3 | 8,979 |
+| admin\\assets\\plugins\\fontawesome\\css | 2 | 2 | 8 | 0 | 10 |
+| admin\\assets\\plugins\\fontawesome\\webfonts | 3 | 8,954 | 12 | 3 | 8,969 |
+| admin\\assets\\plugins\\fullcalendar | 3 | 13 | 9 | 0 | 22 |
+| admin\\assets\\plugins\\icons | 7 | 7 | 21 | 0 | 28 |
+| admin\\assets\\plugins\\icons\\feather | 1 | 1 | 0 | 0 | 1 |
+| admin\\assets\\plugins\\icons\\flags | 1 | 1 | 0 | 0 | 1 |
+| admin\\assets\\plugins\\icons\\ionic | 1 | 1 | 3 | 0 | 4 |
+| admin\\assets\\plugins\\icons\\pe7 | 1 | 1 | 0 | 0 | 1 |
+| admin\\assets\\plugins\\icons\\themify | 1 | 1 | 0 | 0 | 1 |
+| admin\\assets\\plugins\\icons\\typicons | 1 | 1 | 0 | 0 | 1 |
+| admin\\assets\\plugins\\icons\\weather | 1 | 1 | 18 | 0 | 19 |
+| admin\\assets\\plugins\\ion-rangeslider | 3 | 3 | 1 | 0 | 4 |
+| admin\\assets\\plugins\\ion-rangeslider\\css | 1 | 1 | 0 | 0 | 1 |
+| admin\\assets\\plugins\\ion-rangeslider\\js | 2 | 2 | 1 | 0 | 3 |
+| admin\\assets\\plugins\\lightbox | 3 | 3 | 0 | 0 | 3 |
+| admin\\assets\\plugins\\material | 1 | 9,614 | 7 | 3,745 | 13,366 |
+| admin\\assets\\plugins\\moment | 1 | 1 | 1 | 0 | 2 |
+| admin\\assets\\plugins\\morris | 3 | 9 | 13 | 0 | 22 |
+| admin\\assets\\plugins\\owlcarousel | 3 | 4 | 15 | 0 | 19 |
+| admin\\assets\\plugins\\peity | 2 | 22 | 6 | 1 | 29 |
+| admin\\assets\\plugins\\raty | 2 | 74 | 9 | 0 | 83 |
+| admin\\assets\\plugins\\scrollbar | 3 | 3 | 0 | 0 | 3 |
+| admin\\assets\\plugins\\select2 | 3 | 5 | 1 | 1 | 7 |
+| admin\\assets\\plugins\\select2\\css | 1 | 1 | 0 | 1 | 2 |
+| admin\\assets\\plugins\\select2\\js | 2 | 4 | 1 | 0 | 5 |
+| admin\\assets\\plugins\\simpleline | 1 | 1 | 0 | 0 | 1 |
+| admin\\assets\\plugins\\stickynote | 2 | 15 | 0 | 0 | 15 |
+| admin\\assets\\plugins\\summernote | 2 | 2 | 2 | 0 | 4 |
+| admin\\assets\\plugins\\sweetalert | 2 | 3 | 1 | 2 | 6 |
+| admin\\assets\\plugins\\toastr | 3 | 3 | 1 | 2 | 6 |
+| admin\\assets\\plugins\\twitter-bootstrap-wizard | 4 | 16 | 11 | 1 | 28 |
+| admin\\js | 2 | 63 | 22 | 11 | 96 |
+| assets | 152 | 22,217 | 680 | 4,408 | 27,305 |
+| assets\\css | 5 | 7 | 12 | 3 | 22 |
+| assets\\img | 65 | 269 | 2 | 61 | 332 |
+| assets\\img\\icons | 65 | 269 | 2 | 61 | 332 |
+| assets\\js | 10 | 703 | 47 | 4 | 754 |
+| assets\\plugins | 72 | 21,238 | 619 | 4,340 | 26,197 |
+| assets\\plugins\\alertify | 3 | 4 | 6 | 0 | 10 |
+| assets\\plugins\\apexchart | 2 | 24 | 11 | 1 | 36 |
+| assets\\plugins\\chartjs | 2 | 3 | 11 | 1 | 15 |
+| assets\\plugins\\clipboard | 1 | 1 | 6 | 0 | 7 |
+| assets\\plugins\\countup | 3 | 18 | 21 | 0 | 39 |
+| assets\\plugins\\dragula | 3 | 3 | 0 | 0 | 3 |
+| assets\\plugins\\dragula\\css | 1 | 1 | 0 | 0 | 1 |
+| assets\\plugins\\dragula\\js | 2 | 2 | 0 | 0 | 2 |
+| assets\\plugins\\fileupload | 1 | 1 | 0 | 1 | 2 |
+| assets\\plugins\\flot | 4 | 2,430 | 446 | 582 | 3,458 |
+| assets\\plugins\\fontawesome | 5 | 8,956 | 20 | 3 | 8,979 |
+| assets\\plugins\\fontawesome\\css | 2 | 2 | 8 | 0 | 10 |
+| assets\\plugins\\fontawesome\\webfonts | 3 | 8,954 | 12 | 3 | 8,969 |
+| assets\\plugins\\fullcalendar | 3 | 13 | 9 | 0 | 22 |
+| assets\\plugins\\icons | 7 | 7 | 21 | 0 | 28 |
+| assets\\plugins\\icons\\feather | 1 | 1 | 0 | 0 | 1 |
+| assets\\plugins\\icons\\flags | 1 | 1 | 0 | 0 | 1 |
+| assets\\plugins\\icons\\ionic | 1 | 1 | 3 | 0 | 4 |
+| assets\\plugins\\icons\\pe7 | 1 | 1 | 0 | 0 | 1 |
+| assets\\plugins\\icons\\themify | 1 | 1 | 0 | 0 | 1 |
+| assets\\plugins\\icons\\typicons | 1 | 1 | 0 | 0 | 1 |
+| assets\\plugins\\icons\\weather | 1 | 1 | 18 | 0 | 19 |
+| assets\\plugins\\ion-rangeslider | 3 | 3 | 1 | 0 | 4 |
+| assets\\plugins\\ion-rangeslider\\css | 1 | 1 | 0 | 0 | 1 |
+| assets\\plugins\\ion-rangeslider\\js | 2 | 2 | 1 | 0 | 3 |
+| assets\\plugins\\lightbox | 3 | 3 | 0 | 0 | 3 |
+| assets\\plugins\\material | 1 | 9,614 | 7 | 3,745 | 13,366 |
+| assets\\plugins\\moment | 1 | 1 | 1 | 0 | 2 |
+| assets\\plugins\\morris | 3 | 9 | 13 | 0 | 22 |
+| assets\\plugins\\owlcarousel | 3 | 4 | 15 | 0 | 19 |
+| assets\\plugins\\peity | 2 | 22 | 6 | 1 | 29 |
+| assets\\plugins\\raty | 2 | 74 | 9 | 0 | 83 |
+| assets\\plugins\\scrollbar | 3 | 3 | 0 | 0 | 3 |
+| assets\\plugins\\select2 | 3 | 5 | 1 | 1 | 7 |
+| assets\\plugins\\select2\\css | 1 | 1 | 0 | 1 | 2 |
+| assets\\plugins\\select2\\js | 2 | 4 | 1 | 0 | 5 |
+| assets\\plugins\\simpleline | 1 | 1 | 0 | 0 | 1 |
+| assets\\plugins\\stickynote | 2 | 15 | 0 | 0 | 15 |
+| assets\\plugins\\summernote | 2 | 2 | 2 | 0 | 4 |
+| assets\\plugins\\sweetalert | 2 | 3 | 1 | 2 | 6 |
+| assets\\plugins\\toastr | 3 | 3 | 1 | 2 | 6 |
+| assets\\plugins\\twitter-bootstrap-wizard | 4 | 16 | 11 | 1 | 28 |
+| auth | 152 | 22,349 | 679 | 4,436 | 27,464 |
+| auth (Files) | 3 | 144 | 1 | 30 | 175 |
+| auth\\assets | 149 | 22,205 | 678 | 4,406 | 27,289 |
+| auth\\assets\\css | 5 | 7 | 12 | 1 | 20 |
+| auth\\assets\\img | 62 | 257 | 0 | 61 | 318 |
+| auth\\assets\\img\\icons | 62 | 257 | 0 | 61 | 318 |
+| auth\\assets\\js | 10 | 703 | 47 | 4 | 754 |
+| auth\\assets\\plugins | 72 | 21,238 | 619 | 4,340 | 26,197 |
+| auth\\assets\\plugins\\alertify | 3 | 4 | 6 | 0 | 10 |
+| auth\\assets\\plugins\\apexchart | 2 | 24 | 11 | 1 | 36 |
+| auth\\assets\\plugins\\chartjs | 2 | 3 | 11 | 1 | 15 |
+| auth\\assets\\plugins\\clipboard | 1 | 1 | 6 | 0 | 7 |
+| auth\\assets\\plugins\\countup | 3 | 18 | 21 | 0 | 39 |
+| auth\\assets\\plugins\\dragula | 3 | 3 | 0 | 0 | 3 |
+| auth\\assets\\plugins\\dragula\\css | 1 | 1 | 0 | 0 | 1 |
+| auth\\assets\\plugins\\dragula\\js | 2 | 2 | 0 | 0 | 2 |
+| auth\\assets\\plugins\\fileupload | 1 | 1 | 0 | 1 | 2 |
+| auth\\assets\\plugins\\flot | 4 | 2,430 | 446 | 582 | 3,458 |
+| auth\\assets\\plugins\\fontawesome | 5 | 8,956 | 20 | 3 | 8,979 |
+| auth\\assets\\plugins\\fontawesome\\css | 2 | 2 | 8 | 0 | 10 |
+| auth\\assets\\plugins\\fontawesome\\webfonts | 3 | 8,954 | 12 | 3 | 8,969 |
+| auth\\assets\\plugins\\fullcalendar | 3 | 13 | 9 | 0 | 22 |
+| auth\\assets\\plugins\\icons | 7 | 7 | 21 | 0 | 28 |
+| auth\\assets\\plugins\\icons\\feather | 1 | 1 | 0 | 0 | 1 |
+| auth\\assets\\plugins\\icons\\flags | 1 | 1 | 0 | 0 | 1 |
+| auth\\assets\\plugins\\icons\\ionic | 1 | 1 | 3 | 0 | 4 |
+| auth\\assets\\plugins\\icons\\pe7 | 1 | 1 | 0 | 0 | 1 |
+| auth\\assets\\plugins\\icons\\themify | 1 | 1 | 0 | 0 | 1 |
+| auth\\assets\\plugins\\icons\\typicons | 1 | 1 | 0 | 0 | 1 |
+| auth\\assets\\plugins\\icons\\weather | 1 | 1 | 18 | 0 | 19 |
+| auth\\assets\\plugins\\ion-rangeslider | 3 | 3 | 1 | 0 | 4 |
+| auth\\assets\\plugins\\ion-rangeslider\\css | 1 | 1 | 0 | 0 | 1 |
+| auth\\assets\\plugins\\ion-rangeslider\\js | 2 | 2 | 1 | 0 | 3 |
+| auth\\assets\\plugins\\lightbox | 3 | 3 | 0 | 0 | 3 |
+| auth\\assets\\plugins\\material | 1 | 9,614 | 7 | 3,745 | 13,366 |
+| auth\\assets\\plugins\\moment | 1 | 1 | 1 | 0 | 2 |
+| auth\\assets\\plugins\\morris | 3 | 9 | 13 | 0 | 22 |
+| auth\\assets\\plugins\\owlcarousel | 3 | 4 | 15 | 0 | 19 |
+| auth\\assets\\plugins\\peity | 2 | 22 | 6 | 1 | 29 |
+| auth\\assets\\plugins\\raty | 2 | 74 | 9 | 0 | 83 |
+| auth\\assets\\plugins\\scrollbar | 3 | 3 | 0 | 0 | 3 |
+| auth\\assets\\plugins\\select2 | 3 | 5 | 1 | 1 | 7 |
+| auth\\assets\\plugins\\select2\\css | 1 | 1 | 0 | 1 | 2 |
+| auth\\assets\\plugins\\select2\\js | 2 | 4 | 1 | 0 | 5 |
+| auth\\assets\\plugins\\simpleline | 1 | 1 | 0 | 0 | 1 |
+| auth\\assets\\plugins\\stickynote | 2 | 15 | 0 | 0 | 15 |
+| auth\\assets\\plugins\\summernote | 2 | 2 | 2 | 0 | 4 |
+| auth\\assets\\plugins\\sweetalert | 2 | 3 | 1 | 2 | 6 |
+| auth\\assets\\plugins\\toastr | 3 | 3 | 1 | 2 | 6 |
+| auth\\assets\\plugins\\twitter-bootstrap-wizard | 4 | 16 | 11 | 1 | 28 |
+| css | 7 | 4,474 | 137 | 1,465 | 6,076 |
+| font-awesome | 2 | 6 | 10 | 2 | 18 |
+| font-awesome\\css | 2 | 6 | 10 | 2 | 18 |
+| images | 5 | 5 | 0 | 0 | 5 |
+| js | 4 | 281 | 31 | 86 | 398 |
+
+Summary / [Details](details.md) / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
